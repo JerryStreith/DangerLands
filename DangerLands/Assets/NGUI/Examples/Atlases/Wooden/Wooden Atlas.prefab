@@ -1,0 +1,889 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Wooden Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ec268c3ea1baceb4abb2168daed86f68, type: 2}
+  mSprites:
+  - name: 86DsNFkSUAA
+    x: 459
+    y: 8
+    width: 324
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 2
+  - name: Arimo14
+    x: 3948
+    y: 3970
+    width: 126
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 1
+  - name: Arimo18
+    x: 2981
+    y: 2918
+    width: 254
+    height: 93
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 34
+  - name: Arimo20
+    x: 698
+    y: 1977
+    width: 255
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 140
+  - name: back_to_menu
+    x: 2886
+    y: 3426
+    width: 77
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button
+    x: 2393
+    y: 2911
+    width: 17
+    height: 17
+    borderLeft: 5
+    borderRight: 5
+    borderTop: 5
+    borderBottom: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button A
+    x: 2205
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button B
+    x: 2268
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button X
+    x: 2247
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button Y
+    x: 2226
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CaveMiddle
+    x: 0
+    y: 2351
+    width: 958
+    height: 544
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CaveTutorial
+    x: 1922
+    y: 2355
+    width: 960
+    height: 540
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Checkmark
+    x: 1954
+    y: 2897
+    width: 32
+    height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 5
+  - name: Coalition
+    x: 0
+    y: 2094
+    width: 512
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DANGER
+    x: 0
+    y: 602
+    width: 669
+    height: 148
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 17
+    paddingTop: 77
+    paddingBottom: 75
+  - name: DANGERlands
+    x: 0
+    y: 1214
+    width: 697
+    height: 159
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 86
+    paddingBottom: 55
+  - name: DANGERlands2
+    x: 0
+    y: 1913
+    width: 697
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 62
+    paddingBottom: 58
+  - name: DANGERlandswh
+    x: 0
+    y: 1054
+    width: 697
+    height: 159
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 86
+    paddingBottom: 55
+  - name: Emoticon - Angry
+    x: 2184
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Annoyed
+    x: 2163
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Dead
+    x: 2142
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Frown
+    x: 2121
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Laugh
+    x: 2100
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Rambo
+    x: 2310
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Skull
+    x: 2352
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Smile
+    x: 2331
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Emoticon - Smirk
+    x: 2289
+    y: 2908
+    width: 20
+    height: 20
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fire
+    x: 2981
+    y: 3556
+    width: 966
+    height: 540
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Flag-FR
+    x: 2886
+    y: 3373
+    width: 80
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 19
+    paddingBottom: 9
+  - name: Flag-US
+    x: 2886
+    y: 3320
+    width: 80
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 19
+    paddingBottom: 9
+  - name: Flat
+    x: 2411
+    y: 2911
+    width: 17
+    height: 17
+    borderLeft: 5
+    borderRight: 5
+    borderTop: 5
+    borderBottom: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fonstola.ru-113909
+    x: 0
+    y: 2896
+    width: 1920
+    height: 1200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Glow - Inner
+    x: 2018
+    y: 2899
+    width: 29
+    height: 29
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Glow - Outer
+    x: 2886
+    y: 3259
+    width: 60
+    height: 60
+    borderLeft: 26
+    borderRight: 26
+    borderTop: 26
+    borderBottom: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: HBPlA3QF29Q
+    x: 769
+    y: 2170
+    width: 160
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 50
+    paddingTop: 36
+    paddingBottom: 40
+  - name: Highlight - Shadowed
+    x: 2048
+    y: 2900
+    width: 28
+    height: 28
+    borderLeft: 9
+    borderRight: 9
+    borderTop: 9
+    borderBottom: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Highlight - Thin
+    x: 2077
+    y: 2906
+    width: 22
+    height: 22
+    borderLeft: 6
+    borderRight: 6
+    borderTop: 6
+    borderBottom: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_test
+    x: 459
+    y: 448
+    width: 375
+    height: 153
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 13
+    paddingTop: 18
+    paddingBottom: 29
+  - name: MUSICoff
+    x: 0
+    y: 902
+    width: 709
+    height: 151
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 19
+    paddingTop: 28
+    paddingBottom: 21
+  - name: MUSICon
+    x: 301
+    y: 1763
+    width: 631
+    height: 149
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 97
+    paddingTop: 28
+    paddingBottom: 23
+  - name: NGUI
+    x: 3236
+    y: 2935
+    width: 255
+    height: 76
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: padlock
+    x: 0
+    y: 281
+    width: 229
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Q2ZhL7VBHyw
+    x: 0
+    y: 1525
+    width: 300
+    height: 387
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qDQEctwtcPU
+    x: 230
+    y: 281
+    width: 228
+    height: 320
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Quit
+    x: 459
+    y: 302
+    width: 336
+    height: 145
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 129
+    paddingRight: 135
+    paddingTop: 39
+    paddingBottom: 16
+  - name: Quit 1
+    x: 459
+    y: 156
+    width: 336
+    height: 145
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 129
+    paddingRight: 135
+    paddingTop: 39
+    paddingBottom: 16
+  - name: Resize Icon
+    x: 2373
+    y: 2909
+    width: 19
+    height: 19
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
+  - name: Resume
+    x: 301
+    y: 1620
+    width: 549
+    height: 142
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 33
+    paddingRight: 18
+    paddingTop: 30
+    paddingBottom: 28
+  - name: Right Bracket
+    x: 2083
+    y: 2900
+    width: 5
+    height: 5
+    borderLeft: 1
+    borderRight: 2
+    borderTop: 2
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Row Outline
+    x: 2077
+    y: 2900
+    width: 5
+    height: 5
+    borderLeft: 2
+    borderRight: 2
+    borderTop: 1
+    borderBottom: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Screw
+    x: 1987
+    y: 2899
+    width: 30
+    height: 29
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: SOUNDoff
+    x: 0
+    y: 1374
+    width: 740
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 9
+    paddingTop: 31
+    paddingBottom: 19
+  - name: SOUNDon
+    x: 0
+    y: 751
+    width: 667
+    height: 150
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 82
+    paddingTop: 25
+    paddingBottom: 25
+  - name: Stripes 1
+    x: 2921
+    y: 3174
+    width: 34
+    height: 34
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stripes 2
+    x: 2936
+    y: 3224
+    width: 34
+    height: 34
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Stripes 3
+    x: 2886
+    y: 3174
+    width: 34
+    height: 34
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window
+    x: 2886
+    y: 3209
+    width: 49
+    height: 49
+    borderLeft: 11
+    borderRight: 13
+    borderTop: 11
+    borderBottom: 13
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 6
+    paddingBottom: 4
+  - name: WoodBig
+    x: 959
+    y: 2355
+    width: 962
+    height: 540
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Wooden Background
+    x: 513
+    y: 2095
+    width: 255
+    height: 255
+    borderLeft: 1
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WoodMiddlePic
+    x: 2981
+    y: 3012
+    width: 960
+    height: 543
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WoodTutorialPic
+    x: 1921
+    y: 2929
+    width: 964
+    height: 568
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: X Mark
+    x: 1921
+    y: 2896
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zk2CGpD
+    x: 1921
+    y: 3498
+    width: 1059
+    height: 598
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6
